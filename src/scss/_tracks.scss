@@ -4,7 +4,10 @@
   .track-list {
     background-color: $pink-light;
     border-radius: 10px;
-
+    img{
+      height: 10rem;
+      margin-bottom: 1rem
+    }
     .track-item {
       @include flex-center;
       background: none;
@@ -33,6 +36,7 @@
 
       .title {
         color: $blue-dark;
+        min-height: 4rem;
       }
 
       .subtitle {
@@ -61,9 +65,13 @@
         background-color: $green;
         transform: scale(1.05);
         z-index: 10;
+        .title{
+        color:$white;
 
+        }
         .subtitle {
           opacity: 1;
+
           &::after {
             display: inline;
             opacity: 1;
