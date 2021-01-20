@@ -6,8 +6,7 @@
     "build": "gulp clean && gulp build",
     "dev": "gulp",
     "serve": "gulp serve",
-    "clean": "gulp clean",
-    "preinstall": "npx npm-force-resolutions"
+    "clean": "gulp clean"
   },
   "homepage": "https://hackinout.co",
   "resolutions": {
