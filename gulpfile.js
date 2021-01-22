@@ -8,6 +8,15 @@ var imagemin = require("gulp-imagemin");
 var htmlmin = require("gulp-htmlmin");
 var browserSync = require("browser-sync").create();
 var clean = require("gulp-clean");
+var deploy      = require('gulp-gh-pages');
+
+/**
+ * Push build to gh-pages
+ */
+gulp.task('deploy', function () {
+  return gulp.src("./dist/**/*")
+    .pipe(deploy())
+});
 
 // plugin for lossy jpg compression
 var imageminMozjpeg = require("imagemin-mozjpeg");
