@@ -1,5 +1,10 @@
 #about {
   background-color: $green;
+  .section-heading{
+    @media (max-width:720px) {
+      font-size: 2rem;
+    }
+  }
   .img{
     height: 35rem;
     box-shadow: 1rem 1rem 2rem rgba(#000,0.2);

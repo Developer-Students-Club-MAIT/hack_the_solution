@@ -1,6 +1,6 @@
 var log = console.log.bind(console); //bind our console to a variable
 var version = "0.0.1";
-var cacheName = "swInOut";
+var cacheName = "swHTS";
 var cache = cacheName + "-" + version;
 var filesToCache = [
   "css/main.min.css",

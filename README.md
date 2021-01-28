@@ -1,6 +1,5 @@
-# InOut: India's biggest community hackathon
-
-Website for InOut 5.0
+# Hack The Solution:
+Website for Hack The Solution 5.0
 
 ## Installation
 

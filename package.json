@@ -1,25 +1,25 @@
 {
   "name": "website",
   "version": "0.0.0",
-  "description": "Landing page for fifth edition of InOut",
+  "description": "Landing page for Hack The Solution",
   "scripts": {
     "build": "gulp clean && gulp build",
     "dev": "gulp",
     "serve": "gulp serve",
     "clean": "gulp clean"
   },
-  "homepage": "https://hackinout.co",
+  "homepage": "https://hackthesolution.tech/",
   "resolutions": {
     "graceful-fs": "^4.2.4"
   },
   "bugs": {
-    "url": "https://github.com/hackinout/website/issues"
+    "url": "https://github.com/Developer-Students-Club-MAIT/hack_the_solution/issues"
   },
   "license": "MIT",
-  "author": "Ajay NS <ajay.ns@outlook.com>",
+  "author": "DSC MAIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hackinout/website"
+    "url": "https://github.com/Developer-Students-Club-MAIT/hack_the_solution"
   },
   "devDependencies": {
     "browser-sync": "2.23.6",
