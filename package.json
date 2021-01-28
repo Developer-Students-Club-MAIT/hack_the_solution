@@ -34,5 +34,8 @@
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "3.0.0",
     "imagemin-mozjpeg": "^7.0.0"
+  },
+  "dependencies": {
+    "gulp-cli": "^2.3.0"
   }
 }
