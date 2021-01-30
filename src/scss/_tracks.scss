@@ -4,9 +4,9 @@
   .track-list {
     background-color: $pink-light;
     border-radius: 10px;
-    img{
+    img {
       height: 10rem;
-      margin-bottom: 1rem
+      margin-bottom: 1rem;
     }
     .track-item {
       @include flex-center;
@@ -65,9 +65,8 @@
         background-color: $green;
         transform: scale(1.05);
         z-index: 10;
-        .title{
-        color:$white;
-
+        .title {
+          color: $white;
         }
         .subtitle {
           opacity: 1;
