@@ -128,6 +128,7 @@ gulp.task(
   "browserSync",
   gulp.series("build", function () {
     browserSync.init({
+      files: ["src/index.html", "events.html", "judges.html"],
       server: {
         baseDir: "./public",
       },
